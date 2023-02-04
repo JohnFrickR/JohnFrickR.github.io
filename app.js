@@ -569,9 +569,14 @@ function resetGame(){
     }
 }
 function displayRules(){
-    alert("Enter Player1 and Player2 information you desire. Then hit Start game to choose who begins the game.")
-    alert("In order to win you must place 4 pieces of your color in any direction. Each players pieces can block the other from winning.")
-    alert("Once someone wins, simply hit the restart game button and it will clean off the board.")
+    // alert("Enter Player1 and Player2 information you desire. Then hit Start game to choose who begins the game.")
+    // alert("In order to win you must place 4 pieces of your color in any direction. Each players pieces can block the other from winning.")
+    // alert("Once someone wins, simply hit the restart game button and it will clean off the board.")
+    if (document.getElementById("rules2").style.visibility != "hidden"){
+        document.getElementById("rules2").style.visibility = "hidden"
+    } else if (document.getElementById("rules2").style.visibility == "hidden"){
+        document.getElementById("rules2").style.visibility = "visible"
+    }
 }
 let playerName1;
 let playerColor1;
