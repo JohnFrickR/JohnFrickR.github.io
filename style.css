@@ -1,0 +1,120 @@
+.head {
+    /* border: solid 5px; */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    /* border: solid 1px; */
+    margin: 10px;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.play {
+    border: solid 2px;
+    margin: 10px;
+    font-size: x-large;
+}
+.play2 {
+    border: solid 1px;
+    margin: 1px;
+    font-size: large;
+    position: relative;
+    left: 17px;
+}
+
+.rules {
+    border: solid 2px;
+    margin: 10px;
+    font-size: x-large;
+}
+
+#player1-box {
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 20%;
+    background-color: beige;
+}
+.P1{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.P1-color {
+    display: flex;
+    font-size: large;
+} 
+#player2-box {
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 20%;
+    position: relative;
+    background-color: beige;
+    /* left: 1200px;
+    bottom: 50px; */
+}
+.P2{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.P2-color {
+    display: flex;
+    font-size: large;
+} 
+
+/* .container {
+    border: solid 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 30px;
+    background-color: whitesmoke;
+  } */
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: whitesmoke;
+  }
+
+.box{
+    border: solid 1px;
+    display: flex;
+    margin: 0px;
+    padding: 35px;
+    justify-content: center;
+    
+}
+
+html {
+    background-image:url("https://images.unsplash.com/photo-1616935146434-16975bb996fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1083&q=80") ;
+}
+
+#player-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+} 
+
+#currentPlayer{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+#currentPlayer-box{
+    border: solid 1px;
+    background-color: beige;
+}
+/* .box9 {
+    background-color: red;
+}  this shows me that I can make any of the boxes have its own individual background color.*/ 

@@ -1,1 +1,142 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="head" class="head">
+            <div><button id="rules" class="rules">How to Play?</button></div>
+            <!-- <div id="rules2" class="rules2">rules<button>Click to Exit</button></div> -->
+            <div id="title" class="title">Connect 4 Clone</div>
+            <div><button id="play" class="play">Start Game</button></div>
+            
+        </div>
+    </header>
+
+    <div id="player-boxes">
+        <div id="player1-box">
+
+            <div id="P1" class="P1">
+                <label id="label7">Player 1 Score:</label>
+            </div>
+
+            <div id="P1" class="P1">
+                <label id="label1">Player 1:</label>
+                <input id="name1" type="text" placeholder="Player name here">
+            </div>
+            <div id="P1-color" class="P1-color">
+                <label id="label3">Player 1 Color:</label>
+                <select name="color1" id="color1">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            
+            <div>
+                <input id="submit1" type="submit" value="Submit">
+            </div>
+
+        </div>
+
+        <div id="currentPlayer-box">
+            <div><button id="play2" class="play2">Restart Game</button></div>
+            <h1 >Player Turn</h1>
+            <div id="currentPlayer">Current Player</div>
+        </div>
+
+        <div id="player2-box">
+
+            <div id="P2" class="P2">
+                <label id="label6">Player 2 Score:</label>
+            </div>
+
+            <div id="P2" class="P2">
+                <label id="label2">Player 2:</label>
+                <input id='name2' type="text" placeholder="Player name here">
+            </div>
+            <div id="P1-color" class="P1-color">
+                <label id="label4">Player 2 Color:</label>
+                <select name="color2" id="color2">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+
+            <div>
+                <input id="submit2" type="submit">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="Game-grid container">
+        <button id="move1"><span class="box box1 item">Column 1</span></button>
+        <button id="move2"><span class="box box2 item">Column 2</span></button>
+        <button id="move3"><span class="box box3 item">Column 3</span></button>
+        <button id="move4"><span class="box box4 item">Column 4</span></button>
+        <button id="move5"><span class="box box5 item">Column 5</span></button>
+        <button id="move6"><span class="box box6 item">Column 6</span></button>
+        <button id="move7"><span class="box box7 item">Column 7</span></button>
+        <span class="box box8 item" id="box8"></span>
+        <span class="box box9 item" id="box9"></span>
+        <span class="box box10 item" id="box10"></span>
+        <span class="box box11 item" id="box11"></span>
+        <span class="box box12 item" id="box12"></span>
+        <span class="box box13 item" id="box13"></span>
+        <span class="box box14 item" id="box14"></span>
+        <span class="box box15 item" id="box15"></span>
+        <span class="box box16 item" id="box16"></span>
+        <span class="box box17 item" id="box17"></span>
+        <span class="box box18 item" id="box18"></span>
+        <span class="box box19 item" id="box19"></span>
+        <span class="box box20 item" id="box20"></span>
+        <span class="box box21 item" id="box21"></span>
+        <span class="box box22 item" id="box22"></span>
+        <span class="box box23 item" id="box23"></span>
+        <span class="box box24 item" id="box24"></span>
+        <span class="box box25 item" id="box25"></span>
+        <span class="box box26 item" id="box26"></span>
+        <span class="box box27 item" id="box27"></span>
+        <span class="box box28 item" id="box28"></span>
+        <span class="box box29 item" id="box29"></span>
+        <span class="box box30 item" id="box30"></span>
+        <span class="box box31 item" id="box31"></span>
+        <span class="box box32 item" id="box32"></span>
+        <span class="box box33 item" id="box33"></span>
+        <span class="box box34 item" id="box34"></span>
+        <span class="box box35 item" id="box35"></span>
+        <span class="box box36 item" id="box36"></span>
+        <span class="box box37 item" id="box37"></span>
+        <span class="box box38 item" id="box38"></span>
+        <span class="box box39 item" id="box39"></span>
+        <span class="box box40 item" id="box40"></span>
+        <span class="box box41 item" id="box41"></span>
+        <span class="box box42 item" id="box42"></span>
+        <span class="box box43 item" id="box43"></span>
+        <span class="box box44 item" id="box44"></span>
+        <span class="box box45 item" id="box45"></span>
+        <span class="box box46 item" id="box46"></span>
+        <span class="box box47 item" id="box47"></span>
+        <span class="box box48 item" id="box48"></span>
+        <span class="box box49 item" id="box49"></span>
+    </div>
+
+    <img id="background" src="" alt="">
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
