@@ -38,3 +38,5 @@ and for the game to let them know when they have won
 
 Stretch Goals
 I want players to be able to be able to choose their own piece colors and to be able to play the game again without having to restart the web page, so they can track who has won and lost.
+
+URL: https://johnfrickr.github.io/ 
